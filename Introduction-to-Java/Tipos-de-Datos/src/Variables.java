@@ -1,7 +1,6 @@
 public class Variables {
     public static void main(String[] args) {
 
-
         // Primitive data types
 
         // Integer
@@ -60,7 +59,7 @@ public class Variables {
 
         // Initialization
         PI = 3.1416;
-        // It is recommended to declare and initialize in the same line and it is a good practice to write them in UPPERCASE.
+        // It is recommended to declare and initialize in the same line, and it is a good practice to write them in UPPERCASE.
 
     }
 }
