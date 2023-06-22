@@ -24,5 +24,6 @@ public class Exercise_2 {
                             "The increment is $" + increment + "\n" +
                             "The employee's new salary is $" + newSalary);
 
+        entry.close();
     }
 }
