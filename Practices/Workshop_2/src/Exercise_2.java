@@ -37,6 +37,6 @@ public class Exercise_2 {
 
         System.out.println("The total value of the payroll is $" + payroll);
 
-
+        entry.close();
     }
 }
