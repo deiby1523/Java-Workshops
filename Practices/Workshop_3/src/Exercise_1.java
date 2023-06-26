@@ -30,6 +30,6 @@ public class Exercise_1 {
         System.out.println("The sum of the array numbers is: " + sum);
 
 
-
+        entry.close();
     }
 }
