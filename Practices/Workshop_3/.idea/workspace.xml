@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe1d19ec-19b5-45d4-b7bc-1612fdc5510d" name="Changes" comment="Solution of workshop 3 exercise 1 (Correction)">
-      <change afterPath="$PROJECT_DIR$/src/Exercise_2.java" afterDir="false" />
+    <list default="true" id="fe1d19ec-19b5-45d4-b7bc-1612fdc5510d" name="Changes" comment="Solution of workshop 3 exercise 2">
+      <change afterPath="$PROJECT_DIR$/src/Exercise_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +32,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -58,7 +59,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687743380100</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Solution of workshop 3 exercise 1 (Correction)">
+      <created>1687745513297</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687745513297</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Solution of workshop 3 exercise 2">
+      <created>1687745711490</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687745711490</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,6 +90,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Solution of workshop 3 exercise 1" />
     <MESSAGE value="Solution of workshop 3 exercise 1 (Correction)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution of workshop 3 exercise 1 (Correction)" />
+    <MESSAGE value="Solution of workshop 3 exercise 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution of workshop 3 exercise 2" />
   </component>
 </project>
