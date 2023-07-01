@@ -16,7 +16,8 @@ public class Inputs {
         System.out.println("Hi " + name + "!, the next year you will have " + (age+1) + " years old");
 
 
-
+        
+        entry.close();    // It is a good practice to close the data entry
     }
 
     public static void format() {
@@ -34,5 +35,7 @@ public class Inputs {
         System.out.print("The square root of " + num1 + " es ");
         System.out.printf("%1.2f", Math.sqrt(num1));
 
+        
+        entry.close();
     }
 }
