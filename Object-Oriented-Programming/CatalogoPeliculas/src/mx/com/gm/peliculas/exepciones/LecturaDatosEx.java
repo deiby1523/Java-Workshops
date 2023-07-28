@@ -1,2 +1,7 @@
-package mx.com.gm.peliculas.exepciones;public class LecturaDatosEx {
+package mx.com.gm.peliculas.exepciones;
+
+public class LecturaDatosEx extends AccesoDatosEx {
+    public LecturaDatosEx(String mensaje) {
+        super(mensaje);
+    }
 }
