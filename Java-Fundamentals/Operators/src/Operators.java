@@ -28,6 +28,10 @@ public class Operators {
         //      + : Joins or concatenates, depending on the context
         //
 
+        // Unitary Operators
+        //      -  : Changes the sign of the numerical value
+        //      !  : Inverts the Boolean value
+
 
         int a = 5;
 
@@ -49,8 +53,11 @@ public class Operators {
 
         System.out.print(c);
 
+        int d = -a;     // -5
 
+        boolean e = true;
 
+        boolean f = !e;
 
 
 
