@@ -1,3 +1,7 @@
+package car;
+
+import car.Car;
+
 public class UseCar {
     public static void main(String[] args) {
         Car toyota = new Car();
