@@ -3,10 +3,10 @@ package domain;
 public class Person {
 
     /**
-    |--------------------------------------------------------------------------
-    | attributes
-    |--------------------------------------------------------------------------
-    * <ul>
+     * |--------------------------------------------------------------------------
+     * | attributes
+     * |--------------------------------------------------------------------------
+     * <ul>
      *     <li>
      *         Private attributes are not inherited to child classes
      *     </li>
@@ -14,8 +14,8 @@ public class Person {
      *     <li>
      *         The constructors are not inherited, but we can access them through the word super
      *     </li>
-    * </ul>
-    */
+     * </ul>
+     */
 
     protected String name;
     protected char gender;
@@ -23,10 +23,10 @@ public class Person {
     protected String address;
 
     /**
-    |--------------------------------------------------------------------------
-    | constructors
-    |--------------------------------------------------------------------------
-    */
+     * |--------------------------------------------------------------------------
+     * | constructors
+     * |--------------------------------------------------------------------------
+     */
 
     public Person() {
 
@@ -44,10 +44,10 @@ public class Person {
     }
 
     /**
-    |--------------------------------------------------------------------------
-    | getters and setters
-    |--------------------------------------------------------------------------
-    */
+     * |--------------------------------------------------------------------------
+     * | getters and setters
+     * |--------------------------------------------------------------------------
+     */
 
     public String getName() {
         return this.name;
@@ -82,18 +82,20 @@ public class Person {
     }
 
     /**
-    |--------------------------------------------------------------------------
-    | methods
-    |--------------------------------------------------------------------------
-    */
+     |--------------------------------------------------------------------------
+     | methods
+     |--------------------------------------------------------------------------
+     */
 
     @Override
     public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", gender=" + gender +
-                ", age=" + age +
-                ", address='" + address + '\'' +
-                '}';
+        final StringBuilder sb = new StringBuilder("Person{");
+        sb.append("name='").append(name).append('\'');
+        sb.append(", gender=").append(gender);
+        sb.append(", age=").append(age);
+        sb.append(", address='").append(address).append('\'');
+        sb.append(", memoryAddress=").append(super.toString());
+        sb.append('}');
+        return sb.toString();
     }
 }

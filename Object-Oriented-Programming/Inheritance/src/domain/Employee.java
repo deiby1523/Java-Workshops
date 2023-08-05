@@ -23,9 +23,9 @@ public class Employee extends Person {
         this.salary = salary;
     }
 
-    public Employee(String name, char gender, byte age, String address, int idEmployee, double salary) {
+    public Employee(String name, char gender, byte age, String address, double salary) {
         super(name, gender, age, address);
-        this.idEmployee = idEmployee;
+        this.idEmployee = ++Employee.employeeCounter;
         this.salary = salary;
     }
 
@@ -58,7 +58,7 @@ public class Employee extends Person {
         StringBuilder sb = new StringBuilder();
         sb.append("Employee{");
         sb.append("idEmployee=").append(idEmployee);
-        sb.append(", salary=").append(salary).append('}');
+        sb.append(", salary=$").append(salary).append('}');
         sb.append(" ").append(super.toString());
         return sb.toString();
     }
