@@ -20,10 +20,15 @@ public class Customer extends Person {
      |--------------------------------------------------------------------------
      */
 
-    public Customer(String name, boolean vip) {
-        super(name);
+    public Customer() {
         this.idCustomer = ++Customer.customerCounter;
         this.registrationDate = new Date();
+    }
+
+    public Customer(String name, boolean vip) {
+        this();
+        this.name = name;
+        this.vip = vip;
     }
 
     /**

@@ -29,14 +29,16 @@ public class Person {
      */
 
     public Person() {
-
+        // super();
     }
 
     public Person(String name) {
+        this();     // First the empty constructor creates the object and then its attributes are initialized.
         this.name = name;
     }
 
     public Person(String name, char gender, byte age, String address) {
+        this();     // First the empty constructor creates the object and then its attributes are initialized.
         this.name = name;
         this.gender = gender;
         this.age = age;

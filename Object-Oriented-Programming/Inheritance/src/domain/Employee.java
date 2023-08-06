@@ -17,15 +17,26 @@ public class Employee extends Person {
      * |--------------------------------------------------------------------------
      */
 
-    public Employee(String name, double salary) {
-        super(name);
+    public Employee() {
+        // super(); -> Person Class
         this.idEmployee = ++Employee.employeeCounter;
+    }
+
+    public Employee(String name, double salary) {
+        // super(name);
+        this();     // Call to internal constructor
+        // You cannot use this(); and super(attributes); in the same constructor.
+        this.name = name;
         this.salary = salary;
     }
 
     public Employee(String name, char gender, byte age, String address, double salary) {
-        super(name, gender, age, address);
-        this.idEmployee = ++Employee.employeeCounter;
+        // super(name, gender, age, address);
+        this();
+        this.name = name;
+        this.gender = gender;
+        this.age = age;
+        this.address = address;
         this.salary = salary;
     }
 
