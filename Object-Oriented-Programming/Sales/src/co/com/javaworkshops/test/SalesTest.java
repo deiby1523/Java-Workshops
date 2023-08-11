@@ -17,6 +17,8 @@ public class SalesTest {
 
         // System.out.println(order1.calculateTotal());
 
+        // Data Output
+
         order1.showOrder();
 
 
