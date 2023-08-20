@@ -1,16 +1,33 @@
 package model;
 
-@SuppressWarnings("FieldMayBeFinal")
 public class Student {
+    /**
+     |--------------------------------------------------------------------------
+     | attributes
+     |--------------------------------------------------------------------------
+     */
     private String name;
     private byte age;
     private double[] grades = new double[2];
 
+    /**
+     |--------------------------------------------------------------------------
+     | constructors
+     |--------------------------------------------------------------------------
+     */
+    public Student() {
+
+    }
     public Student(String name, byte age) {
         this.name = name;
         this.age = age;
     }
 
+    /**
+     |--------------------------------------------------------------------------
+     | getters and setters
+     |--------------------------------------------------------------------------
+     */
     public String getName() {
         return name;
     }
@@ -35,6 +52,11 @@ public class Student {
         this.grades[n] = grade;
     }
 
+    /**
+     |--------------------------------------------------------------------------
+     | methods
+     |--------------------------------------------------------------------------
+     */
     public double calculateAverage() {
         double sum = 0;
         for (double nota : this.grades) {
