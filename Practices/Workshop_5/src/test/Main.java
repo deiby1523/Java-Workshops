@@ -7,10 +7,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner entry = new Scanner(System.in);
-        boolean repeat = true;
         int objectsCounter = 0;
 
-        while (repeat) {
+        while (true) {
             Employee employee = new Employee();
             System.out.println("Enter the Employee's data Number " + ++objectsCounter + ":");
             System.out.println("Enter the name: ");
@@ -30,7 +29,7 @@ public class Main {
             String SN = entry.nextLine();
 
             if (SN.equalsIgnoreCase("N")) {
-                repeat = false;
+                break;
             }
 
         }

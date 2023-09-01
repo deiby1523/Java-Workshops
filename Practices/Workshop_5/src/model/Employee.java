@@ -99,7 +99,9 @@ public class Employee {
     public double calculateTotalAccrued() {
         return this.calculateWageDays() + calculateTransportationAid() - calculateInsurance();
     }
-
+    /*/*
+    yet another comment
+*/
     public void response() {
         final StringBuilder sb = new StringBuilder("Employee #" + this.id + " " + this.name + "\n");
         sb.append("Salary for days worked during the month: $").append(this.calculateWageDays() + "\n");
