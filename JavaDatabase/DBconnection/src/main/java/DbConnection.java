@@ -17,7 +17,7 @@ public class DbConnection {
             while (result.next()) {
                 System.out.print("id: " + result.getInt("id"));
                 System.out.print(" name: " + result.getString("name"));
-                System.out.print(" phone: " + result.getString("phoneNumber"));
+                System.out.print(" phoneNumber: " + result.getString("phoneNumber"));
                 System.out.println(" address: " + result.getString("address"));
             }
             result.close();
