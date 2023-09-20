@@ -19,7 +19,7 @@ public class Main {
                 phone.setLocalMin(60);
                 phone.setNationalMin(75);
                 phone.setInternationalMin(63);
-                User user = new User("Deiby Prada", "Calle 22 #8-24", phone, (byte) 3);
+                User user = new User("Deiby Prada", "Str 22 #8-24", phone, (byte) 3);
 
                 Bill bill = new Bill(user, phone);
 
