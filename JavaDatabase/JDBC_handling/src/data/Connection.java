@@ -24,7 +24,7 @@ public class Connection {
     }
 
     public static void close(Connection cn) throws CloneNotSupportedException {
-        cn.clone();
+        cn.close();
     }
 
 }
